@@ -4,6 +4,7 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
 
 public class Compilers {
 	
@@ -14,6 +15,15 @@ public class Compilers {
 	
 	
 	@FindBy(className = "form-control")
-	WebElement  compliers;
+	WebElement  languages;
+	
+	
 
+	@FindBy(className = "glyphicon glyphicon-play")
+	WebElement  run;
+	
+	public void selectLanguageandRun(WebElement languages){
+		log.info("selecting compiler language");
+		run.click();
+	}
 }
