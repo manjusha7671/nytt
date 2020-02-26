@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" ignored="0" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression suite" duration-ms="24898" started-at="2020-02-26T12:52:14Z" finished-at="2020-02-26T12:52:38Z">
+    <groups>
+    </groups>
+    <test name="Compilers test" duration-ms="24898" started-at="2020-02-26T12:52:14Z" finished-at="2020-02-26T12:52:38Z">
+      <class name="com.testScripts.CompilersTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="launchBrowser" is-config="true" duration-ms="4462" started-at="2020-02-26T18:22:14Z" finished-at="2020-02-26T18:22:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="beforeClass" is-config="true" duration-ms="16489" started-at="2020-02-26T18:22:18Z" finished-at="2020-02-26T18:22:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="compilersTest(java.lang.String, java.lang.String)[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="compilersTest" duration-ms="328" started-at="2020-02-26T18:22:36Z" data-provider="testData" finished-at="2020-02-26T18:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bash (4.4)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compilersTest -->
+        <test-method status="PASS" signature="compilersTest(java.lang.String, java.lang.String)[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="compilersTest" duration-ms="203" started-at="2020-02-26T18:22:36Z" data-provider="testData" finished-at="2020-02-26T18:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Bash (4.0)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compilersTest -->
+        <test-method status="PASS" signature="compilersTest(java.lang.String, java.lang.String)[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="compilersTest" duration-ms="215" started-at="2020-02-26T18:22:36Z" data-provider="testData" finished-at="2020-02-26T18:22:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Basic (fbc 1.05.0)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compilersTest -->
+        <test-method status="PASS" signature="compilersTest(java.lang.String, java.lang.String)[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="compilersTest" duration-ms="361" started-at="2020-02-26T18:22:36Z" data-provider="testData" finished-at="2020-02-26T18:22:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C (gcc 7.2.0)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Y]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compilersTest -->
+        <test-method status="SKIP" signature="compilersTest(java.lang.String, java.lang.String)[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="compilersTest" duration-ms="2" started-at="2020-02-26T18:22:37Z" data-provider="testData" finished-at="2020-02-26T18:22:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C (gcc 6.4.0)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[run Mode No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: run Mode No
+	at com.testScripts.CompilersTest.compilersTest(CompilersTest.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compilersTest -->
+        <test-method status="SKIP" signature="compilersTest(java.lang.String, java.lang.String)[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="compilersTest" duration-ms="2" started-at="2020-02-26T18:22:37Z" data-provider="testData" finished-at="2020-02-26T18:22:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C (gcc 6.3.0)]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[run Mode No]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: run Mode No
+	at com.testScripts.CompilersTest.compilersTest(CompilersTest.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compilersTest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="afterClass" is-config="true" duration-ms="1694" started-at="2020-02-26T18:22:37Z" finished-at="2020-02-26T18:22:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.testScripts.CompilersTest -->
+    </test> <!-- Compilers test -->
+  </suite> <!-- Regression suite -->
+</testng-results>

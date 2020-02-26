@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Regression_suite">
+              <span class="suite-name border-skipped">Regression suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Regression_suite">
+                    <span>C:\Users\samrat\workspace\nytt\src\main\java\testSuite\regression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Regression_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Regression_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Regression_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Regression_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Regression_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Regression_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,  2 skipped,  4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Regression_suite" class="hide-methods skipped suite-Regression_suite"> (hide)</a> <!-- hide-methods skipped suite-Regression_suite -->
+                      <a href="#" panel-name="suite-Regression_suite" class="show-methods skipped suite-Regression_suite"> (show)</a> <!-- show-methods skipped suite-Regression_suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Regression_suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite" title="com.testScripts.CompilersTest" hash-for-method="compilersTest(C (gcc 6.3.0), N)">compilersTest(C (gcc 6.3.0), N)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite" title="com.testScripts.CompilersTest" hash-for-method="compilersTest(C (gcc 6.4.0), N)">compilersTest(C (gcc 6.4.0), N)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Regression_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Regression_suite" class="hide-methods passed suite-Regression_suite"> (hide)</a> <!-- hide-methods passed suite-Regression_suite -->
+                      <a href="#" panel-name="suite-Regression_suite" class="show-methods passed suite-Regression_suite"> (show)</a> <!-- show-methods passed suite-Regression_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Regression_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite" title="com.testScripts.CompilersTest" hash-for-method="compilersTest(Bash (4.4), Y)">compilersTest(Bash (4.4), Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite" title="com.testScripts.CompilersTest" hash-for-method="compilersTest(Bash (4.0), Y)">compilersTest(Bash (4.0), Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite" title="com.testScripts.CompilersTest" hash-for-method="compilersTest(Basic (fbc 1.05.0), Y)">compilersTest(Basic (fbc 1.05.0), Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Regression_suite" title="com.testScripts.CompilersTest" hash-for-method="compilersTest(C (gcc 7.2.0), Y)">compilersTest(C (gcc 7.2.0), Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Regression_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Regression_suite" class="panel Regression_suite">
+          <div class="suite-Regression_suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.testScripts.CompilersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="compilersTest(C (gcc 6.3.0), N)">
+                  </a> <!-- compilersTest(C (gcc 6.3.0), N) -->
+                  <span class="method-name">compilersTest</span>
+                  <span class="parameters">(C (gcc 6.3.0), N)</span>
+                  <div class="stack-trace">org.testng.SkipException: run Mode No
+	at com.testScripts.CompilersTest.compilersTest(CompilersTest.java:44)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="compilersTest(C (gcc 6.4.0), N)">
+                  </a> <!-- compilersTest(C (gcc 6.4.0), N) -->
+                  <span class="method-name">compilersTest</span>
+                  <span class="parameters">(C (gcc 6.4.0), N)</span>
+                  <div class="stack-trace">org.testng.SkipException: run Mode No
+	at com.testScripts.CompilersTest.compilersTest(CompilersTest.java:44)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_suite-class-skipped -->
+          <div class="suite-Regression_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testScripts.CompilersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="compilersTest(Bash (4.4), Y)">
+                  </a> <!-- compilersTest(Bash (4.4), Y) -->
+                  <span class="method-name">compilersTest</span>
+                  <span class="parameters">(Bash (4.4), Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="compilersTest(Bash (4.0), Y)">
+                  </a> <!-- compilersTest(Bash (4.0), Y) -->
+                  <span class="method-name">compilersTest</span>
+                  <span class="parameters">(Bash (4.0), Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="compilersTest(Basic (fbc 1.05.0), Y)">
+                  </a> <!-- compilersTest(Basic (fbc 1.05.0), Y) -->
+                  <span class="method-name">compilersTest</span>
+                  <span class="parameters">(Basic (fbc 1.05.0), Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="compilersTest(C (gcc 7.2.0), Y)">
+                  </a> <!-- compilersTest(C (gcc 7.2.0), Y) -->
+                  <span class="method-name">compilersTest</span>
+                  <span class="parameters">(C (gcc 7.2.0), Y)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_suite-class-passed -->
+        </div> <!-- panel Regression_suite -->
+        <div panel-name="test-xml-Regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\samrat\workspace\nytt\src\main\java\testSuite\regression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Regression suite&quot;&gt;
+  &lt;test name=&quot;Compilers test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testScripts.CompilersTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Compilers test --&gt;
+&lt;/suite&gt; &lt;!-- Regression suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Regression suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Compilers test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Regression suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Regression suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Regression_suite');
+function tableData_Regression_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'compilersTest')
+data.setCell(0, 2, 'com.testScripts.CompilersTest')
+data.setCell(0, 3, 361);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'compilersTest')
+data.setCell(1, 2, 'com.testScripts.CompilersTest')
+data.setCell(1, 3, 328);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'compilersTest')
+data.setCell(2, 2, 'com.testScripts.CompilersTest')
+data.setCell(2, 3, 215);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'compilersTest')
+data.setCell(3, 2, 'com.testScripts.CompilersTest')
+data.setCell(3, 3, 203);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'compilersTest')
+data.setCell(4, 2, 'com.testScripts.CompilersTest')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'compilersTest')
+data.setCell(5, 2, 'com.testScripts.CompilersTest')
+data.setCell(5, 3, 2);
+window.suiteTableData['Regression_suite']= { tableData: data, tableDiv: 'times-div-Regression_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <div id="times-div-Regression_suite">
+              </div> <!-- times-div-Regression_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Regression suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Regression_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testScripts.CompilersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">4473 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">compilersTest(Bash (4.4), Y)</span>
+                <span class="method-start">22080 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">compilersTest(Bash (4.0), Y)</span>
+                <span class="method-start">22409 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">compilersTest(Basic (fbc 1.05.0), Y)</span>
+                <span class="method-start">22613 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">compilersTest(C (gcc 7.2.0), Y)</span>
+                <span class="method-start">22829 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">compilersTest(C (gcc 6.4.0), N)</span>
+                <span class="method-start">23191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">compilersTest(C (gcc 6.3.0), N)</span>
+                <span class="method-start">23194 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">23197 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

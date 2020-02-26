@@ -30,7 +30,7 @@ public class ReadDataFromExcelSheet {
 			int i=0;
 			
 			while(rowIterator.hasNext() ){
-				i=i++;
+//				i=i++;
 				Row row = rowIterator.next();
 				Iterator<Cell> cellIterator = row.cellIterator();
 				int j=0;
@@ -43,28 +43,29 @@ public class ReadDataFromExcelSheet {
 					}
 					switch(cell.getCellType()){
 					case Cell.CELL_TYPE_NUMERIC:
-						dataSets[i][j++] = cell.getStringCellValue();
+						dataSets[i-1][j++] = cell.getStringCellValue();
 						System.out.println(cell.getNumericCellValue());
 						break;
 					case Cell.CELL_TYPE_STRING:
-						dataSets[i][j++] = cell.getStringCellValue();
+						dataSets[i-1][j++] = cell.getStringCellValue();
 						System.out.println(cell.getStringCellValue());
 						break;
 					case Cell.CELL_TYPE_BOOLEAN:
-						dataSets[i][j++] = cell.getStringCellValue();
+						dataSets[i-1][j++] = cell.getStringCellValue();
 						System.out.println(cell.getStringCellValue());
 						break;
 					case Cell.CELL_TYPE_FORMULA:
-						dataSets[i][j++] = cell.getStringCellValue();
+						dataSets[i-1][j++] = cell.getStringCellValue();
 						System.out.println(cell.getStringCellValue());
 						break;
 					}
 					
 				}
 				System.out.println("");
+				i++;
 			}
 			file.close();
-			
+			return dataSets;
 			
 		}catch(Exception e){
 			e.printStackTrace();
@@ -74,7 +75,7 @@ public class ReadDataFromExcelSheet {
 	
 	
 	public static void main(String[] args) {
-		String excellocation = "C:\\Users\\samrat\\workspace\\nytt\\compilers.xlsx";
+		String excellocation = "C:\\Users\\samrat\\workspace\\nytt\\excelFiles\\compilers.xlsx";
 		String sheetName = "compilers";
 		ReadDataFromExcelSheet excel = new ReadDataFromExcelSheet();
 		String[][] data = excel.getExcelData(excellocation, sheetName);
