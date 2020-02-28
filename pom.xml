@@ -61,8 +61,7 @@
     <version>3.0.0-M2</version>
     <configuration>
     <suiteXmlFiles>
-    <suiteXmlFile>testnG.xml</suiteXmlFile> 
-    
+    <suiteXmlFile>src/main/java/testSuite/regression.xml</suiteXmlFile> 
     
     </suiteXmlFiles>
     
