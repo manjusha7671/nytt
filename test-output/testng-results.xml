@@ -2,20 +2,20 @@
 <testng-results skipped="2" failed="0" ignored="0" total="6" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression suite" duration-ms="24898" started-at="2020-02-26T12:52:14Z" finished-at="2020-02-26T12:52:38Z">
+  <suite name="Regression suite" duration-ms="14510" started-at="2020-03-02T08:27:41Z" finished-at="2020-03-02T08:27:55Z">
     <groups>
     </groups>
-    <test name="Compilers test" duration-ms="24898" started-at="2020-02-26T12:52:14Z" finished-at="2020-02-26T12:52:38Z">
+    <test name="Compilers test" duration-ms="14510" started-at="2020-03-02T08:27:41Z" finished-at="2020-03-02T08:27:55Z">
       <class name="com.testScripts.CompilersTest">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="launchBrowser" is-config="true" duration-ms="4462" started-at="2020-02-26T18:22:14Z" finished-at="2020-02-26T18:22:18Z">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="launchBrowser" is-config="true" duration-ms="3965" started-at="2020-03-02T13:57:41Z" finished-at="2020-03-02T13:57:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="beforeClass" is-config="true" duration-ms="16489" started-at="2020-02-26T18:22:18Z" finished-at="2020-02-26T18:22:35Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="beforeClass" is-config="true" duration-ms="7066" started-at="2020-03-02T13:57:45Z" finished-at="2020-03-02T13:57:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="compilersTest(java.lang.String, java.lang.String)[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="compilersTest" duration-ms="328" started-at="2020-02-26T18:22:36Z" data-provider="testData" finished-at="2020-02-26T18:22:36Z">
+        <test-method status="PASS" signature="compilersTest(java.lang.String, java.lang.String)[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="compilersTest" duration-ms="290" started-at="2020-03-02T13:57:53Z" data-provider="testData" finished-at="2020-03-02T13:57:53Z">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- compilersTest -->
-        <test-method status="PASS" signature="compilersTest(java.lang.String, java.lang.String)[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="compilersTest" duration-ms="203" started-at="2020-02-26T18:22:36Z" data-provider="testData" finished-at="2020-02-26T18:22:36Z">
+        <test-method status="PASS" signature="compilersTest(java.lang.String, java.lang.String)[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="compilersTest" duration-ms="281" started-at="2020-03-02T13:57:53Z" data-provider="testData" finished-at="2020-03-02T13:57:54Z">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- compilersTest -->
-        <test-method status="PASS" signature="compilersTest(java.lang.String, java.lang.String)[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="compilersTest" duration-ms="215" started-at="2020-02-26T18:22:36Z" data-provider="testData" finished-at="2020-02-26T18:22:36Z">
+        <test-method status="PASS" signature="compilersTest(java.lang.String, java.lang.String)[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="compilersTest" duration-ms="240" started-at="2020-03-02T13:57:54Z" data-provider="testData" finished-at="2020-03-02T13:57:54Z">
           <params>
             <param index="0">
               <value>
@@ -63,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- compilersTest -->
-        <test-method status="PASS" signature="compilersTest(java.lang.String, java.lang.String)[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="compilersTest" duration-ms="361" started-at="2020-02-26T18:22:36Z" data-provider="testData" finished-at="2020-02-26T18:22:37Z">
+        <test-method status="PASS" signature="compilersTest(java.lang.String, java.lang.String)[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="compilersTest" duration-ms="287" started-at="2020-03-02T13:57:54Z" data-provider="testData" finished-at="2020-03-02T13:57:54Z">
           <params>
             <param index="0">
               <value>
@@ -79,7 +79,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- compilersTest -->
-        <test-method status="SKIP" signature="compilersTest(java.lang.String, java.lang.String)[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="compilersTest" duration-ms="2" started-at="2020-02-26T18:22:37Z" data-provider="testData" finished-at="2020-02-26T18:22:37Z">
+        <test-method status="SKIP" signature="compilersTest(java.lang.String, java.lang.String)[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="compilersTest" duration-ms="2" started-at="2020-03-02T13:57:54Z" data-provider="testData" finished-at="2020-03-02T13:57:54Z">
           <params>
             <param index="0">
               <value>
@@ -130,7 +130,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- compilersTest -->
-        <test-method status="SKIP" signature="compilersTest(java.lang.String, java.lang.String)[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="compilersTest" duration-ms="2" started-at="2020-02-26T18:22:37Z" data-provider="testData" finished-at="2020-02-26T18:22:37Z">
+        <test-method status="SKIP" signature="compilersTest(java.lang.String, java.lang.String)[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="compilersTest" duration-ms="2" started-at="2020-03-02T13:57:54Z" data-provider="testData" finished-at="2020-03-02T13:57:54Z">
           <params>
             <param index="0">
               <value>
@@ -181,7 +181,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- compilersTest -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="afterClass" is-config="true" duration-ms="1694" started-at="2020-02-26T18:22:37Z" finished-at="2020-02-26T18:22:38Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.testScripts.CompilersTest@4f7d0008]" name="afterClass" is-config="true" duration-ms="1282" started-at="2020-03-02T13:57:54Z" finished-at="2020-03-02T13:57:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
